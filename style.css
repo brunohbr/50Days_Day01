@@ -4,6 +4,7 @@
 }
 
 body{
+    background-color: black;
     font-family: 'roboto', sans-serif;
     display: flex;
     align-items: center;
@@ -48,6 +49,7 @@ body{
 
 .panel.active h3 {
     opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s ;
 }
 
 @media( max-width: 400px){
